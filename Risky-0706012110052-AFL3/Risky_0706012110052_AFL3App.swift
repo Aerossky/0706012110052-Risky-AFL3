@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct Risky_0706012110052_AFL3App: App {
+   
+    @StateObject private var modelData = ModelData()
+    
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+            WindowGroup {
+                ContentView()
+                    .environmentObject(modelData)
+            }
         }
-    }
 }

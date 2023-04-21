@@ -8,32 +8,27 @@
 import SwiftUI
 
 struct LandmarkList: View {
-    @State private var showFavoritesOnly = true
+    // membuat model data menjadi variable global
+    @EnvironmentObject var modelData: ModelData
+    @State private var showFavoritesOnly = false
     
     var filteredLandmarks: [Landmark] {
-        landmarks.filter { landmark in
+        modelData.landmarks.filter { landmark in
             // kalau false maka akan masuk ke dalam kondisi pertama
             (!showFavoritesOnly || landmark.isFavorite)
         }
+        
     }
     
     var body: some View {
-//        NavigationView {
-//        List(landmarks) { landmark in
-//        LandmarkRow(landmark:landmark)
-//            }
-//            .navigationTitle("Landmarks")
-//        }
-//
         NavigationStack{
-//            tombol Favorites only
+            //tombol toggle favorites only
             List{
                 Toggle(isOn: $showFavoritesOnly) {
                     Text("Favorites only")
                 }
-
-                ForEach(filteredLandmarks){
-                    landmark in
+                
+                ForEach(filteredLandmarks){landmark in
                     NavigationLink {
                         LandmarkDetail(landmark: landmark)
                     } label: {
@@ -49,6 +44,7 @@ struct LandmarkList: View {
 
 struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
-     LandmarkList()
+        LandmarkList()
+                .environmentObject(ModelData())
     }
 }
