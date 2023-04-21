@@ -6,6 +6,15 @@
 //
 
 import Foundation
+import Combine
+
+//ObservalObject merupakan protokol yang membuat data dapat di proses secara real time.
+final class ModelData: ObservableObject {
+//    @Published adalah sebuah property wrapper pada SwiftUI yang memungkinkan objek yang menerapkannya untuk memberitahu view ketika nilai dari propertinya berubah. 
+    @Published var landmarks: [Landmark] = load("landmarkData.json")
+}
+
+
 
 var landmarks: [Landmark] = load("landmarkData.json")
 
