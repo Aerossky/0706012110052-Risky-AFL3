@@ -71,7 +71,6 @@
 				04D8A02729ED6BD600DB9B16 /* Models */,
 				04D8A02829ED6BF600DB9B16 /* Resources */,
 				04D8A00E29ED68E200DB9B16 /* Risky_0706012110052_AFL3App.swift */,
-				04D8A02229ED6ADC00DB9B16 /* Landmark.swift */,
 				04D8A01229ED68E300DB9B16 /* Assets.xcassets */,
 				04D8A01429ED68E300DB9B16 /* Preview Content */,
 			);
@@ -103,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				04D8A02429ED6BAA00DB9B16 /* ModelData.swift */,
+				04D8A02229ED6ADC00DB9B16 /* Landmark.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";

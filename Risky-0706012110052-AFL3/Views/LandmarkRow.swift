@@ -19,6 +19,10 @@ struct LandmarkRow: View {
             Text(landmark.name)
             
             Spacer()
+//            kondisi ketika favorite true maka gambar akan keluar
+            if landmark.isFavorite {
+                Image(systemName: "star.fill").foregroundColor(.yellow)
+            }
         }
     }
 }
