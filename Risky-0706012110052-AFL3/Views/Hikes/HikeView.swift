@@ -11,7 +11,9 @@ extension AnyTransition {
     static var moveAndFade: AnyTransition {
 //        AnyTransition.move(edge: .trailing)
         .asymmetric(
+            // animasi masuk
                    insertion: .move(edge: .top).combined(with: .opacity),
+            // animasi keluar
                    removal: .scale.combined(with: .opacity)
                )
     }
