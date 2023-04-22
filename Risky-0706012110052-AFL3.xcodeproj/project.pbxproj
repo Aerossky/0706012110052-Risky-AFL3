@@ -60,12 +60,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04D8A00229ED68E200DB9B16 = {
+		043EA42929F3C19D002CB3C1 /* Badges */ = {
 			isa = PBXGroup;
 			children = (
 				043EA42729F3C070002CB3C1 /* Badge.swift */,
 				043EA41F29F3B5FC002CB3C1 /* HexagonParameters.swift */,
+				043EA42329F3BFFD002CB3C1 /* BadgeSymbol.swift */,
 				043EA42129F3B882002CB3C1 /* BadgeBackground.swift */,
+				043EA42529F3C048002CB3C1 /* RotateBadgeSymbol.swift */,
+			);
+			path = Badges;
+			sourceTree = "<group>";
+		};
+		04D8A00229ED68E200DB9B16 = {
+			isa = PBXGroup;
+			children = (
 				04D8A00D29ED68E200DB9B16 /* Risky-0706012110052-AFL3 */,
 				04D8A00C29ED68E200DB9B16 /* Products */,
 			);
@@ -87,8 +96,6 @@
 				04D8A02829ED6BF600DB9B16 /* Resources */,
 				04D8A00E29ED68E200DB9B16 /* Risky_0706012110052_AFL3App.swift */,
 				04D8A01229ED68E300DB9B16 /* Assets.xcassets */,
-				043EA42329F3BFFD002CB3C1 /* BadgeSymbol.swift */,
-				043EA42529F3C048002CB3C1 /* RotateBadgeSymbol.swift */,
 				04D8A01429ED68E300DB9B16 /* Preview Content */,
 			);
 			path = "Risky-0706012110052-AFL3";
@@ -105,6 +112,7 @@
 		04D8A02629ED6BCF00DB9B16 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				043EA42929F3C19D002CB3C1 /* Badges */,
 				04D8A01029ED68E200DB9B16 /* ContentView.swift */,
 				04F1525B29F2836100007A2E /* Helpers */,
 				04F1525A29F2835300007A2E /* Landmarks */,
