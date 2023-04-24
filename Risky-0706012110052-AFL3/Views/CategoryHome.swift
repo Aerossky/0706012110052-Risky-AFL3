@@ -13,10 +13,23 @@ struct CategoryHome: View {
     var body: some View {
         NavigationView {
             List {
+                //featured
+                modelData.features[0].image
+                                    .resizable()
+                                    .scaledToFill()
+                                    .frame(height: 200)
+                                    .clipped()
+                                    //menjadi rounded
+                                    .listRowInsets(EdgeInsets())
+
                 //melakukan perulangan foreach, id digunakan sebagai identifier
                 ForEach(modelData.categories.keys.sorted(), id: \.self) { key in
-                    Text(key)
+//                    Text(key)
+                    CategoryRow(categoryName: key, items: modelData.categories[key]!)
+                                
                 }
+                .listRowInsets(EdgeInsets())
+
             }
             .navigationTitle("Featured")
         }
