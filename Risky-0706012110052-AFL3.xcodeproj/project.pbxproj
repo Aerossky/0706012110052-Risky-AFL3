@@ -21,6 +21,7 @@
 		043EA45F29F3CF6E002CB3C1 /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043EA45E29F3CF6E002CB3C1 /* HikeGraph.swift */; };
 		043EA46129F3CF8E002CB3C1 /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043EA46029F3CF8E002CB3C1 /* HikeView.swift */; };
 		045FD08329EE1FA000CEDC94 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FD08229EE1FA000CEDC94 /* LandmarkRow.swift */; };
+		049B982429F68A5400244539 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049B982329F68A5400244539 /* CategoryHome.swift */; };
 		04D8A00F29ED68E200DB9B16 /* Risky_0706012110052_AFL3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D8A00E29ED68E200DB9B16 /* Risky_0706012110052_AFL3App.swift */; };
 		04D8A01129ED68E200DB9B16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D8A01029ED68E200DB9B16 /* ContentView.swift */; };
 		04D8A01329ED68E300DB9B16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D8A01229ED68E300DB9B16 /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 		043EA45E29F3CF6E002CB3C1 /* HikeGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
 		043EA46029F3CF8E002CB3C1 /* HikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
 		045FD08229EE1FA000CEDC94 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		049B982329F68A5400244539 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		04D8A00B29ED68E200DB9B16 /* Risky-0706012110052-AFL3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Risky-0706012110052-AFL3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D8A00E29ED68E200DB9B16 /* Risky_0706012110052_AFL3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Risky_0706012110052_AFL3App.swift; sourceTree = "<group>"; };
 		04D8A01029ED68E200DB9B16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				043EA42929F3C19D002CB3C1 /* Badges */,
 				04F1525B29F2836100007A2E /* Helpers */,
 				04F1525A29F2835300007A2E /* Landmarks */,
+				049B982329F68A5400244539 /* CategoryHome.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04D8A01129ED68E200DB9B16 /* ContentView.swift in Sources */,
+				049B982429F68A5400244539 /* CategoryHome.swift in Sources */,
 				043EA42829F3C070002CB3C1 /* Badge.swift in Sources */,
 				04D8A01F29ED6A0C00DB9B16 /* MapView.swift in Sources */,
 				043EA45B29F3CEFB002CB3C1 /* GraphCapsule.swift in Sources */,
