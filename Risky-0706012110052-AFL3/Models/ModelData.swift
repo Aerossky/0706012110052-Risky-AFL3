@@ -13,6 +13,16 @@ final class ModelData: ObservableObject {
 //    @Published adalah sebuah property wrapper pada SwiftUI yang memungkinkan objek yang menerapkannya untuk memberitahu view ketika nilai dari propertinya berubah. 
     @Published var landmarks: [Landmark] = load("landmarkData.json")
     var hikes: [Hike] = load("hikeData.json")
+    
+    //membuat dictionary yang disimpan pada variable categories
+    var categories: [String: [Landmark]] {
+        Dictionary(
+            //melakukan grup sesuai kategori dalam landmarks
+            grouping: landmarks,
+            //$0 digunakan untuk melakukan iterasi ke semua data yang ada pada landmarks
+            by: { $0.category.rawValue }
+        )
+    }
 }
 
 
