@@ -22,6 +22,8 @@
 		0400528829F80F8F00EF2F49 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D8A01E29ED6A0C00DB9B16 /* MapView.swift */; };
 		0400528A29F80FE800EF2F49 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043EA42C29F3C255002CB3C1 /* Hike.swift */; };
 		0400528B29F8100100EF2F49 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049B982B29F6BB2000244539 /* Profile.swift */; };
+		0400528C29F8137000EF2F49 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D168029EE2BC4003F7086 /* LandmarkList.swift */; };
+		0400528D29F813AC00EF2F49 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FD08229EE1FA000CEDC94 /* LandmarkRow.swift */; };
 		042D168129EE2BC4003F7086 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D168029EE2BC4003F7086 /* LandmarkList.swift */; };
 		042D168329EE341C003F7086 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D168229EE341C003F7086 /* LandmarkDetail.swift */; };
 		043EA42029F3B5FC002CB3C1 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043EA41F29F3B5FC002CB3C1 /* HexagonParameters.swift */; };
@@ -399,7 +401,9 @@
 				0400528629F80F6600EF2F49 /* Landmark.swift in Sources */,
 				0400528A29F80FE800EF2F49 /* Hike.swift in Sources */,
 				0400528B29F8100100EF2F49 /* Profile.swift in Sources */,
+				0400528D29F813AC00EF2F49 /* LandmarkRow.swift in Sources */,
 				0400528729F80F8400EF2F49 /* CircleImage.swift in Sources */,
+				0400528C29F8137000EF2F49 /* LandmarkList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
