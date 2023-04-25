@@ -37,6 +37,8 @@ struct ProfileSummary: View {
                             HikeBadge(name: "Tenth Hike")
                                 .grayscale(0.5)
                                 .hueRotation(Angle(degrees: 45))
+
+                              
                         }
                         .padding(.bottom)
                     }
