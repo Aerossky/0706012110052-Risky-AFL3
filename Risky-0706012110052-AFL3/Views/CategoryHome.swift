@@ -15,11 +15,13 @@ struct CategoryHome: View {
         NavigationView {
             List {
                 //featured
-                modelData.features[2].image
-                    .resizable()
-                    .scaledToFill()
-                    .frame(height: 200)
-                    .clipped()
+                //                modelData.features[2].image
+                //                    .resizable()
+                //                    .scaledToFill()
+                //                    .frame(height: 200)
+                //                    .clipped()
+                PageView(pages: modelData.features.map { FeatureCard(landmark: $0) })
+                .aspectRatio(3 / 2, contentMode: .fit)
                 //menjadi rounded
                     .listRowInsets(EdgeInsets())
                 
