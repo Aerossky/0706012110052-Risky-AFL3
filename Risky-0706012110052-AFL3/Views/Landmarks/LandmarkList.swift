@@ -37,7 +37,7 @@ struct LandmarkList: View {
     }
     
     var body: some View {
-        NavigationStack{
+        NavigationView{
             //tombol toggle favorites only
             List{
               
