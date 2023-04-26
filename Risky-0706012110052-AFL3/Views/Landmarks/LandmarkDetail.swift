@@ -55,6 +55,7 @@ struct LandmarkDetail: View {
         .navigationTitle(landmark.name)
         //kondisi ketika di layar mac dan di iphone
         #if os(macOS)
+        
         #else
         .navigationBarTitleDisplayMode(.inline)
         #endif
