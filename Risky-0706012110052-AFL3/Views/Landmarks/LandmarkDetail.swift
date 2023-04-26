@@ -53,7 +53,13 @@ struct LandmarkDetail: View {
             Spacer()
         }
         .navigationTitle(landmark.name)
-                .navigationBarTitleDisplayMode(.inline)
+        //kondisi ketika di layar mac dan di iphone
+        #if os(macOS)
+        #else
+        .navigationBarTitleDisplayMode(.inline)
+        #endif
+
+//                .navigationBarTitleDisplayMode(.inline)
 //                .onAppear {
 //                    dump(landmark)
 //                }
