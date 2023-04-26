@@ -56,6 +56,7 @@
 		044089BD29F903AE0030B339 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044089B929F903610030B339 /* LandmarkList.swift */; };
 		044089BE29F903B60030B339 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D168029EE2BC4003F7086 /* LandmarkList.swift */; };
 		044089C029F90D530030B339 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044089BF29F90D530030B339 /* LandmarkCommands.swift */; };
+		044089C229F9170B0030B339 /* LandmarkSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044089C129F9170B0030B339 /* LandmarkSettings.swift */; };
 		045FD08329EE1FA000CEDC94 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FD08229EE1FA000CEDC94 /* LandmarkRow.swift */; };
 		049B982429F68A5400244539 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049B982329F68A5400244539 /* CategoryHome.swift */; };
 		049B982629F6990F00244539 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049B982529F6990F00244539 /* CategoryRow.swift */; };
@@ -67,6 +68,7 @@
 		049B983429F6C43C00244539 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049B983329F6C43C00244539 /* ProfileEditor.swift */; };
 		04A8712B29F82195005CF192 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400529029F814C100EF2F49 /* NotificationController.swift */; };
 		04A8712C29F821AC005CF192 /* PushNotificationPayload.apns in Resources */ = {isa = PBXBuildFile; fileRef = 0400529229F817A500EF2F49 /* PushNotificationPayload.apns */; };
+		04AB76FA29F91D0D0035FB64 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044089BF29F90D530030B339 /* LandmarkCommands.swift */; };
 		04D8A00F29ED68E200DB9B16 /* Risky_0706012110052_AFL3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D8A00E29ED68E200DB9B16 /* Risky_0706012110052_AFL3App.swift */; };
 		04D8A01129ED68E200DB9B16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D8A01029ED68E200DB9B16 /* ContentView.swift */; };
 		04D8A01329ED68E300DB9B16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D8A01229ED68E300DB9B16 /* Assets.xcassets */; };
@@ -114,6 +116,7 @@
 		044089B729F8F62E0030B339 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		044089B929F903610030B339 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		044089BF29F90D530030B339 /* LandmarkCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCommands.swift; sourceTree = "<group>"; };
+		044089C129F9170B0030B339 /* LandmarkSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkSettings.swift; sourceTree = "<group>"; };
 		045FD08229EE1FA000CEDC94 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		049B982329F68A5400244539 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		049B982529F6990F00244539 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
@@ -249,6 +252,7 @@
 				044089A029F8EC1B0030B339 /* Assets.xcassets */,
 				044089A529F8EC1B0030B339 /* MacLandmarks.entitlements */,
 				044089A229F8EC1B0030B339 /* Preview Content */,
+				044089C129F9170B0030B339 /* LandmarkSettings.swift */,
 			);
 			path = MacLandmarks;
 			sourceTree = "<group>";
@@ -515,6 +519,7 @@
 			files = (
 				0440899F29F8EC190030B339 /* ContentView.swift in Sources */,
 				044089A929F8ECA20030B339 /* MapView.swift in Sources */,
+				044089C229F9170B0030B339 /* LandmarkSettings.swift in Sources */,
 				044089AB29F8ECA20030B339 /* LandmarkRow.swift in Sources */,
 				044089B229F8ECA20030B339 /* Risky_0706012110052_AFL3App.swift in Sources */,
 				044089C029F90D530030B339 /* LandmarkCommands.swift in Sources */,
@@ -535,6 +540,7 @@
 			files = (
 				049B982629F6990F00244539 /* CategoryRow.swift in Sources */,
 				040051E229F7848800EF2F49 /* PageView.swift in Sources */,
+				04AB76FA29F91D0D0035FB64 /* LandmarkCommands.swift in Sources */,
 				04D8A01129ED68E200DB9B16 /* ContentView.swift in Sources */,
 				049B982429F68A5400244539 /* CategoryHome.swift in Sources */,
 				043EA42829F3C070002CB3C1 /* Badge.swift in Sources */,

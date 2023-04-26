@@ -29,5 +29,12 @@ struct Risky_0706012110052_AFL3App: App {
         #if os(watchOS)
         WKNotificationScene(controller: NotificationController.self, category: "LandmarkNear")
         #endif
+        
+        
+    #if os(macOS)
+     Settings {
+         LandmarkSettings()
+     }
+    #endif
         }
 }
