@@ -21,6 +21,7 @@ struct LandmarkDetail: View {
 
         ScrollView {
             MapView(coordinate: landmark.locationCoordinate)
+            //menghapus area atas notch
                 .ignoresSafeArea(edges: .top)
                 .frame(height: 300)
 

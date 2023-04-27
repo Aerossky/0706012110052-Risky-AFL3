@@ -8,6 +8,7 @@
 import Foundation
 
 struct Hike: Codable, Hashable, Identifiable {
+    //menenukan struktur file
     var id: Int
     var name: String
     var distance: Double
